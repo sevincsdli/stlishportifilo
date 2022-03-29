@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+  user-select:none;
+}
+.header-image{
+    width:100%;
+    height:786px;
+    background-image:url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:left;
+}
+.header-words{
+    text-align:center;
+    position:relative;
+    top:270px;
+    color:#161718;
+}
+.header-words h1{
+    font-size:100px;
+}
+.header-words i{
+    font-size:30px;
+    margin-left:170px;
+}
+.header-words button  {
+    color:white;
+    background-color:hsl(210, 80%, 52%);
+    width:140px;
+    height:40px;
+    border:4px solid hsl(210, 80%, 52%);
+    border-radius:2px;
+    padding:15px 20px;
+    position:relative;
+    top:60px;
+    right:320px;
+    cursor:pointer;
+}
+.about-stylish-portolio{
+    text-align:center;
+    position:relative;
+    top:100px;
+}
+.about-stylish-portolio h1{
+    font-size:30px;
+}
+.about-stylish-portolio p{
+    font-size:20px;
+}
+#about-stylish-portolio{
+    width:100%;
+    height:300px;
+    background-color:#EFF3F7;
+}
+.about-stylish-portolio button{
+    width:150px;
+    height:50px;
+    border-radius:2px;
+    cursor:pointer;
+    background-color:#71A7F8;
+    margin-top:40px;
+    margin-left:30px;
+   
+}
+.about-stylish-portolio button a{
+color:white;
+text-decoration:none;
+}
+#services{
+    width:100%;
+    height:500px;
+    background-color:#71A7F8;
+}
+#services h4,h2{
+    text-align:center;
+    position:relative;
+    top:60px;
+}
+#services h2{
+    color:white;
+    font-size: 50px;
+}
+#services h4{
+    color:burlywood;
+}
+.service-part{
+text-align:center;
+margin-top:50px;
+}
+.responsive,.redesigned,.favorited, .question {
+    width:200px;
+    height:200px;
+    display:inline-block;
+    padding:20px;
+    margin:20px;
+}
+.fa-mobile-alt,.fa-pen,.fa-thumbs-up{
+color:blue;
+background-color:white;
+width:100px;
+height:100px;
+border-radius: 50%;
+font-size:40px;
+
+}
+
+.responsive,.redesigned,.favorited,.question h3 p{
+    color:white;
+    font-size: 20px;
+}
+#new-website {
+    width:100%;
+    height:700px;
+    background:url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.newebsite-word{
+    position: relative;
+    top:40%;
+    left:40%;
+}
+.newebsite-word h1{
+font-size:50px;
+}
+.newebsite-word button{
+background-color:#71A7F8 ;
+padding:15px 25px;
+border-radius:4px;
+outline: none;
+margin-left:50px;
+margin-top:30px;
+}
+.newebsite-word button a{
+    text-decoration: none;
+    color:white;
+}
+.portfolio-part{
+    text-align:center;
+
+}
+.portfolio-part h3{
+color:yellowgreen;
+font-size:22px;
+}
+.portfolio-part h1{
+    font-size:50px;
+}
+.portfolio{
+    text-align:center;
+
+}
+.stationary,.ice-cream,.strawberry,.workspace {
+    width:522px;
+    height:349px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    display:inline-block;
+    color:white;
+}
+.stationary,.ice-cream,.strawberry,.workspace h2,p{
+  
+}
+.stationary{
+    margin-top:30px;
+ background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg");
+}
+.ice-cream{
+    margin-top:30px;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg");
+}
+.strawberry{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg");
+
+}
+.workspace{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg");
+
+}
+.buttons{
+    margin-top:100px;
+    width: 100%;
+    background-color: darkblue;
+    height:300px;
+}
+.buttons h2{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    font-size:34px;
+    position: relative;
+    top: 30%;
+    left:10%;
+}
+.Clickme{
+text-decoration:none;
+color:black;
+cursor: pointer;
+padding:20px;
+border-radius:3px;
+background-color: white;
+border:1px solid white;
+position: relative;
+top:46%;
+right:23%;
+margin:10px;
+
+}
+.Lookatme{
+text-decoration:none;
+color:white;
+cursor:pointer;
+padding:20px;
+border-radius:4px;
+background-color: black;
+border:1px solid black;
+position: relative;
+top:46%;
+margin:10px;
+right:23%;
+}
+footer{
+    margin-top:100px;
+}
